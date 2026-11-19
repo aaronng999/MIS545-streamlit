@@ -33,3 +33,4 @@ input_data = np.array([[MedInc/10000, HouseAge, AveRooms, AveBedrms, Population,
 prediction = model.predict(input_data)
 st.subheader("Predicted Housing Price")
 st.write(f"**${prediction[0]*100000:.2f}**")
+
